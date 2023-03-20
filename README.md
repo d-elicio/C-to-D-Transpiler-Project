@@ -1,13 +1,10 @@
-
-# Project Title
+# C to D Transpiler Project
 ![GitHub watchers](https://img.shields.io/github/watchers/d-elicio/C-to-D-Transpiler-Project?style=social) 
 ![GitHub forks](https://img.shields.io/github/forks/d-elicio/C-to-D-Transpiler-Project?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/d-elicio/C-to-D-Transpiler-Project?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/d-elicio/C-to-D-Transpiler-Project?style=plastic)
 
-Design and implementation of a transpiler to convert simple
-programs written using a subset of C language in an equivalent working
-program in D language
+Design and implementation of a transpiler to convert simple programs written using a subset of C language in an equivalent working program in D language.
 
 ## 🚀 About Me
 I'm a computer science Master's Degree student and this is one of my university project. 
