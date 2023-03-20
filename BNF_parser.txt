@@ -1,0 +1,52 @@
+<program> ::= <begin> main '(' ')' '{' <statements> <end>				
+
+<begin> ::= <header> <main_type> | <main_type>
+
+<main_type> ::= int | void
+
+<header> ::= include
+
+<end> ::= return <return_value> ';' '}'  | '}'
+
+<statements> ::= <statement> | <statement> <statements>
+		
+<statement> ::= <if_statement> 	| <while_statement>   | <assignment_statement>   | <output_statement>   | <input_statement>
+		
+<output_statement> ::= printf '(' <string_value> ')' ';'    |   printf '(' <string_value> ',' <id_value>  ')' ';'
+
+<input_statement> ::= scanf '(' <string_value>  ',' <id_value> ')' ';'
+
+<string_value> ::= str
+
+<if_statement> ::= if '(' <condition> ')' '{' <statements> '}'   |   if '(' <condition> ')' '{' <statements> '}' <else_if_statement>
+
+<else_if_statement> ::= else_if '(' <condition> ')' '{' <statements> '}'    |    else_if '(' <condition> ')' '{' <statements> '}' else '{' <statements> '}'   |   else '{' <statements> '}'
+		 
+<while_statement> ::= while '(' <condition> ')' '{' <statements> '}'
+
+<assignment_statement> ::= <type> <id_value> '=' <value> ';'  |  <type> <id_value> ';'   |   <id_value> '=' <expr> ';'   |   <type> <id_value> '=' <expr> ';'  |  <id_value> <unary_op> ';'
+
+<type> ::= int  | float  | char  |  void
+
+<id_value> ::= id  |  pointer
+
+<unary_op> ::= '++'  |  '--'
+
+<condition> ::= <expr> <relop> <expr>
+
+<relop> ::= '>' | '<' | '<=' | '>=' | '==' | '!=' | '&&' | '||'  
+	
+<expr> ::= <value> <operation> <expr> | '(' <expr> ')' | '(' <expr> ')' <operation> <expr> | <value>
+
+<operation> ::= "+" | "-" | "*" |"/"
+	
+<value> ::= number | id | pointer | float_num  | character | str
+
+<return_value> ::= number
+	
+		
+		
+		
+		
+		
+		
