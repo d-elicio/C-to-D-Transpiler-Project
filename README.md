@@ -10,7 +10,7 @@ Design and implementation of a transpiler to convert simple programs written usi
 I'm a computer science Master's Degree student and this is one of my university project. 
 See my other projects here on [GitHub](https://github.com/d-elicio)!
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://d-elicio.github.io)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/domenico-elicio/)
 
 
@@ -69,7 +69,8 @@ All the semantic actions contains *pseudo-variables* indicated with a **$** symb
 Usually in this field, *binary trees* are used, but for this project, due to some problems related to the grammar rules design (e.g. the program rule, if_statement and assignment_statement), the resulting tree has the form of a **ternary tree** where every node has potentially three children.
 
 In the figure below there are some examples of different ASTs produced for three types of assignment statements:
-![AST_assignment_statement-Pagina-2](https://user-images.githubusercontent.com/96207365/226105268-61cd1742-4916-4d27-961b-b0db099d7955.png)
+![image](https://user-images.githubusercontent.com/96207365/235991873-1e51c33b-f1f8-486f-8796-a1a9f7524c5e.jpg)
+
 
 Here is shown an example of a simple C-like program and its relative computed AST:
 
